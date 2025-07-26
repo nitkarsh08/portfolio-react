@@ -16,7 +16,7 @@ const Contact = () => {
   });
 
   const [feedbackMessage, setFeedbackMessage] = useState("");
-  const [messageColor, setMessageColor] = useState("");
+  const [messageColor , setMessageColor] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
